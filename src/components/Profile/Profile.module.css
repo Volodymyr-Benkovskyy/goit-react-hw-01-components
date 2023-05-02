@@ -5,7 +5,7 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 .description {
@@ -24,7 +24,7 @@
   margin-bottom: 10px;
 }
 
-.stats { 
+.stats {
   display: flex;
   list-style: none;
   gap: 10px;
@@ -39,12 +39,12 @@
 }
 
 .label {
-    color: darkgrey;
-    font-size: 14px;
+  color: darkgrey;
+  font-size: 14px;
 }
 
 .quantity {
-    color: black;
-    font-size: 14px;
-    font-weight: 600;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
 }

@@ -31,20 +31,6 @@ export const StatItem = styled.li`
   text-align: center;
   color: white;
   padding: 15px 15px;
-   /* background-color: ${props => {
-    switch (props.prop) {
-      case '.docx':
-        return `#088395`;
-      case '.pdf':
-        return `#654E92`;
-      case '.mp3':
-        return `#B71375`;
-      case '.psd':
-        return `#E49393`;
-      default:
-        return `#C780FA`;
-    }
-  }}; */
 `;
 
 export const StatLabel = styled.span`
